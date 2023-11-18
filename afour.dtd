@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!ELEMENT Patient_Encounters (Patient*) >
+<!ELEMENT Patient (ID, Full_Name, Date_of_Birth, Gender, Service_Date, Procedure_Code, Primary_Diagnosis) >
+<!ELEMENT ID (#PCDATA) >
+<!ELEMENT Full_Name (#PCDATA) >
+<!ELEMENT Date_of_Birth (#PCDATA) >
+<!ELEMENT Gender (#PCDATA) >
+<!ELEMENT Service_Date (#PCDATA) >
+<!ELEMENT Procedure_Code (#PCDATA) >
+<!ELEMENT Primary_Diagnosis (#PCDATA) >
+<!ENTITY f9 "Female" >
+<!ENTITY m8 "Male" >
